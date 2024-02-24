@@ -1,0 +1,33 @@
+{
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
+  "customizations": {
+    "codespaces": {
+      // Per https://docs.github.com/en/codespaces/managing-your-codespaces/managing-repository-access-for-your-codespaces
+      "repositories": {
+        "metaDAOproject/futarchy": {
+          "permissions": "write-all"
+        },
+        "metaDAOproject/futarchy-indexer": {
+          "permissions": "write-all"
+        },
+        "metaDAOproject/futarchy-ts": {
+          "permissions": "write-all"
+        },
+        "metaDAOproject/meta-dao-frontend": {
+          "permissions": "write-all"
+        },
+        "metaDAOproject/meta-dao-docs": {
+          "permissions": "write-all"
+        },
+        "metaDAOproject/meta-repo": {
+          "permissions": "write-all"
+        },
+        "metaDAOproject/openbook-twap": {
+          "permissions": "write-all"
+        }
+      }
+    }
+  }
+}

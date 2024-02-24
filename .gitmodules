@@ -1,0 +1,18 @@
+[submodule "repos/futarchy"]
+	path = repos/futarchy
+	url = https://github.com/metaDAOproject/futarchy
+[submodule "repos/futarchy-indexer"]
+	path = repos/futarchy-indexer
+	url = https://github.com/metaDAOproject/futarchy-indexer
+[submodule "repos/futarchy-ts"]
+	path = repos/futarchy-ts
+	url = https://github.com/metaDAOproject/futarchy-ts
+[submodule "repos/meta-dao-frontend"]
+	path = repos/meta-dao-frontend
+	url = https://github.com/metaDAOproject/meta-dao-frontend
+[submodule "repos/meta-dao-docs"]
+	path = repos/meta-dao-docs
+	url = https://github.com/metaDAOproject/meta-dao-docs
+[submodule "repos/openbook-twap"]
+	path = repos/openbook-twap
+	url = https://github.com/metaDAOproject/openbook-twap
